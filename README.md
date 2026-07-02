@@ -32,7 +32,7 @@ This portfolio is designed to provide with an overview of my work, achievements,
 
 Visit the live portfolio here:
 
-**🔗 https://varshaajio.github.io/My-Portfolio/**
+**🔗 [Live Demo](https://iamvarshaa.lovable.app/)**
 
 ## Contact
 
