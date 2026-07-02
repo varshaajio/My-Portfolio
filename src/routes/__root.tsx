@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Varshaa S B, Full Stack Developer, MERN, Java, GenAI, LangChain, AWS, Cloud, Portfolio, Software Engineer",
       },
       { name: "author", content: "Varshaa S B" },
-      { property: "og:title", content: "Varshaa S B — Full Stack Developer & GenAI Engineer" },
+      { property: "og:title", content: "Varshaa S B — Full Stack Developer (MERN, Java) & GenAI Engineer" },
       {
         property: "og:description",
         content:
@@ -89,11 +89,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Varshaa S B" },
       { property: "og:url", content: "/" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Varshaa S B — Full Stack Developer & GenAI Engineer" },
+      { name: "twitter:title", content: "Varshaa S B — Full Stack Developer (MERN, Java) & GenAI Engineer" },
       {
         name: "twitter:description",
         content: "MERN + Java Full Stack Developer, AWS & Cloud enthusiast, GenAI practitioner.",
       },
+      { name: "description", content: "Full-Stack Developer specialized in MERN stack & Cloud hosting. Actively contributing freelance services to clients." },
+      { property: "og:description", content: "Full-Stack Developer specialized in MERN stack & Cloud hosting. Actively contributing freelance services to clients." },
+      { name: "twitter:description", content: "Full-Stack Developer specialized in MERN stack & Cloud hosting. Actively contributing freelance services to clients." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cd692e51-ba11-48ea-87d2-164d81b51ff0/id-preview-ef5f0e06--88ee2e2a-dd05-4fe2-a618-7911e6182da5.lovable.app-1783003167920.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cd692e51-ba11-48ea-87d2-164d81b51ff0/id-preview-ef5f0e06--88ee2e2a-dd05-4fe2-a618-7911e6182da5.lovable.app-1783003167920.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
