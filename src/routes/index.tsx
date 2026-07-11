@@ -40,7 +40,8 @@ export const Route = createFileRoute("/")({
 
 const EMAIL = "varshaajio@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/varshaajio/";
-const RESUME_URL = "/Varshaa_SB_Resume.docx";
+const GITHUB = "https://github.com/varshaajio/";
+const RESUME_URL = "/Varshaa_SB_Resume.pdf";
 
 const NAV = [
   { id: "about", label: "About" },
@@ -347,7 +348,7 @@ const LEADERSHIP = [
   },
   {
     role: "Chief Election Commissioner",
-    org: "School Student Council Elections",
+    org: "Student Council Elections",
     period: "2023 – 2024",
     desc: "Coordinated election schedules, nominations, polling, vote counting and result declaration with full transparency and compliance.",
   },
