@@ -40,7 +40,8 @@ export const Route = createFileRoute("/")({
 
 const EMAIL = "varshaajio@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/varshaajio/";
-const RESUME_URL = "/Varshaa_SB_Resume.docx";
+const GITHUB = "https://github.com/varshaajio/";
+const RESUME_URL = "/Varshaa_SB_Resume.pdf";
 
 const NAV = [
   { id: "about", label: "About" },
@@ -347,7 +348,7 @@ const LEADERSHIP = [
   },
   {
     role: "Chief Election Commissioner",
-    org: "School Student Council Elections",
+    org: "Student Council Elections",
     period: "2023 – 2024",
     desc: "Coordinated election schedules, nominations, polling, vote counting and result declaration with full transparency and compliance.",
   },
@@ -600,6 +601,9 @@ function Hero() {
             </a>
             <a href={LINKEDIN} target="_blank" rel="noreferrer" className="btn-ghost">
               <Linkedin className="h-4 w-4" /> LinkedIn
+            </a>
+            <a href={GITHUB} target="_blank" rel="noreferrer" className="btn-ghost">
+              <Github className="h-4 w-4" /> GitHub
             </a>
           </div>
 
@@ -1163,6 +1167,23 @@ function Contact() {
                 <ExternalLink className="ml-auto h-4 w-4 text-muted-foreground" />
               </div>
             </a>
+            <a
+              href={GITHUB}
+              target="_blank"
+              rel="noreferrer"
+              className="block rounded-2xl border border-border bg-card p-5 card-hover"
+            >
+              <div className="flex items-center gap-3">
+                <span className="grid h-10 w-10 place-items-center rounded-xl bg-primary/15 text-primary">
+                  <Github className="h-5 w-5" />
+                </span>
+                <div className="min-w-0">
+                  <div className="text-xs uppercase tracking-wider text-muted-foreground">GitHub</div>
+                  <div className="truncate font-medium">/varshaajio</div>
+                </div>
+                <ExternalLink className="ml-auto h-4 w-4 text-muted-foreground" />
+              </div>
+            </a>
             <div className="rounded-2xl border border-border bg-card p-5">
               <div className="flex items-center gap-3">
                 <span className="grid h-10 w-10 place-items-center rounded-xl bg-primary/15 text-primary">
@@ -1271,6 +1292,15 @@ function Footer() {
             className="grid h-9 w-9 place-items-center rounded-full border border-border transition hover:bg-primary/10"
           >
             <Linkedin className="h-4 w-4" />
+          </a>
+          <a
+            href={GITHUB}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+            className="grid h-9 w-9 place-items-center rounded-full border border-border transition hover:bg-primary/10"
+          >
+            <Github className="h-4 w-4" />
           </a>
           <a
             href={`mailto:${EMAIL}`}

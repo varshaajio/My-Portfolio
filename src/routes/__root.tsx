@@ -121,7 +121,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           jobTitle: "Full Stack Developer (MERN & Java) | GenAI Engineer",
           email: "mailto:varshaajio@gmail.com",
           url: "/",
-          sameAs: ["https://www.linkedin.com/in/varshaajio/"],
+          sameAs: ["https://www.linkedin.com/in/varshaajio/", "https://github.com/varshaajio/"],
           address: {
             "@type": "PostalAddress",
             addressLocality: "Erode",
